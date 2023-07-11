@@ -18,15 +18,20 @@
 // }
 
 //how functions in javascript
-var x=1;
-a();
-b();
-console.log(x);
-function a(){
-    var x=10;
-    console.log(x);
-}
-function b(){
-    var x=100;
-    console.log(x);
+// var x=1;
+// a();
+// b();
+// console.log(x);
+// function a(){
+//     var x=10;
+//     console.log(x);
+// }
+// function b(){
+//     var x=100;
+//     console.log(x);
+// }
+for(var i=0; i<3;i++){
+    setTimeout(() => {
+        console.log(i);
+    }, 1);
 }
